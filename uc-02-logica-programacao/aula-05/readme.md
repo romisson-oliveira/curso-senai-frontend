@@ -6,12 +6,12 @@
 
 ### Roteiro para o esquema da aula
 
-- [ ] **Comunicado de como ser avaliação**;
-- [ ] **Programação da Semana**:
-    - [ ] Terça-feira: Pivot estratégico;
-    - [ ] Quarta-feira: Revisão e exercícios;
-    - [ ] Quinta-feira: av30;
-- [ ] **Entendendo a nova forma de trabalhar a uc**;
+- [x] **Comunicado de como ser avaliação**;
+- [x] **Programação da Semana**:
+    - [x] Terça-feira: Pivot estratégico;
+    - [x] Quarta-feira: Revisão e exercícios;
+    - [x] Quinta-feira: av30;
+- [x] **Entendendo a nova forma de trabalhar a uc**;
 
 ### 🔗 Exercícios
 
