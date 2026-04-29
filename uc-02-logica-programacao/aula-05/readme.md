@@ -13,6 +13,14 @@
     - [x] Quinta-feira: av30;
 - [x] **Entendendo a nova forma de trabalhar a uc**;
 
+### O que vimos hoje?
+
+- Diferença entre hardware e software: sendo hardware a parte física do computador e software a parte lógica:
+    - *Hardware é o que você **chuta***;
+    - *Software é o que você **xinga***.
+- Vimos que para desenvolver um software, precisamos ter o completo entendimento das regras e quais dados precisamento e quais saídas devemos retornar;
+- Fizemos os exercícios que está no link abaixo.
+
 ### 🔗 Exercícios
 
 - [🎯 Lista de Exercícios\_ Identificando o IPO (Entrada, Processamento e Saída)](<../../exercicios/aula-05/🎯%20Lista%20de%20Exercícios_%20Identificando%20o%20IPO%20(Entrada,%20Processamento%20e%20Saída).pdf>)
