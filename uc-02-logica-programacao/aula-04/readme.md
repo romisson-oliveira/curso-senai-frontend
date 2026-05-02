@@ -11,8 +11,8 @@
     - [Resumo - Lógica de Programação](./Resumo_%20Lógica%20de%20Programação.pdf)
 
 - **Exercício 1**: para acessar o código da resolução do exercício, confira abaixo:
-    - [Enunciado do Exercício](<../../exercicios/aula-03/📝%20Lista%20de%20Exercícios_%20Aula%2003%20(Input%20&%20Output).pdf>)
-    - [Exercício de Boas Vindas 🖖](../../exercicios/aula-03/ex01.html)
+    - [Enunciado do Exercício](<../../exercicios/uc-02-logica-programacao/aula-03/📝%20Lista%20de%20Exercícios_%20Aula%2003%20(Input%20&%20Output).pdf>)
+    - [Exercício de Boas Vindas 🖖](../../exercicios/uc-02-logica-programacao/aula-03/ex01.html)
 - **Alternativa para práticar código**: Acesse o site do Codepen, confira o link abaixo:
     - [Website Codepen](https://codepen.io/)
 

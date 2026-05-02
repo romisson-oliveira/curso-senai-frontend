@@ -6,9 +6,10 @@
 
 ### Roteiro para o esquema da aula
 
-- [ ] - Fazer exercícios de lógica com algoritmo;
-- [ ] - Aquecimento quizz; 
+- [x]   - Fazer exercícios de lógica com algoritmo;
+- [x]   - Aquecimento quizz;
 
 ### 🔗 Exercícios
 
-- [Exercícios_ Desvendando a Lógica e Algoritmo)](<../../exercicios/aula-06/Exercícios_ Desvendando a Lógica e Algoritmo.pdf>)
+- [Exercícios\_ Desvendando a Lógica e Algoritmo)](<../../exercicios/uc-02-logica-programacao/aula-06/Exercícios_ Desvendando a Lógica e Algoritmo.pdf>)
+- [Resolução dos Exercícios](../../exercicios/uc-02-logica-programacao/aula-06/readme.md)
