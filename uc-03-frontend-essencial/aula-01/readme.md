@@ -19,7 +19,7 @@ Em resumo é uma linguagem com regras de escrita para indicar ao navegador o que
 
 🔑 **Pontos Chave:**
 
-- A primeira página da web era apenas texto e links. Sem cores, sem animações. [Confira aqui!](<[#-links-importantes](https://info.cern.ch/hypertext/WWW/TheProject.html)>)
+- A primeira página da web criado no mundo era apenas texto e links. Sem cores, sem animações.
 
 📂 **Revisão Cliente-Servidor:**
 
