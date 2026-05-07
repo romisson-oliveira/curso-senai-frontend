@@ -1,6 +1,6 @@
 ## 📚 Aula 04: UC-03 - Front End Essencial
 
-**✅ Tema:** Caminhos de Arquivos (Paths), Atributos e Links (Âncoras)
+**✅ Tema:** Estrutura HTML, Caminhos de Arquivos (Paths), Atributos e Links (Âncoras)
 
 ---
 
@@ -11,6 +11,41 @@ Se você achou confuso, respire fundo: está tudo bem!
 É super normal estranhar isso na primeira vez que ouvimos falar.
 
 Para ajudar a clarear as ideias, preparei uma explicação detalhada e visual.
+
+Mas antes, vamos ver como estruturar nosso html:
+
+#### 🏗️ A Estrutura Oficial do HTML5 (A "Casa" do Código)
+
+Até agora, nós estávamos jogando tags soltas e o navegador estava "adivinhando" o que queríamos fazer. Mas sites profissionais precisam seguir regras claras para que o navegador, o Google (buscadores) e o CSS funcionem perfeitamente. Hoje aprendemos a montar o esqueleto oficial de uma página web!
+
+No VS Code, podemos gerar essa estrutura rapidamente digitando `!` e apertando `Enter`.
+O resultado é este:
+
+```
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+</head>
+<body>
+    <!-- Aqui vai o conteúdo -->
+</body>
+</html>
+```
+
+##### Entendendo cada parte:
+
+- `<!DOCTYPE html>`: É um aviso! Diz para o navegador: "Ei, vou usar a versão mais moderna do HTML (HTML5)!".
+
+- `<html>`: É a tag mãe (a raiz do projeto). Tudo o que existe no seu site tem que estar dentro dela.
+
+- `<head>`: É o "cérebro invisível". Aqui ficam as configurações da página que o usuário não vê diretamente no site, mas que são essenciais (como o idioma, os caracteres especiais no `<meta charset="UTF-8">` e o `<title>` que aparece na aba do navegador).
+
+- `<body>`: É o "corpo visível". Tudo aquilo que você quer que apareça na tela (textos, imagens, listas, links) obrigatoriamente precisa ser escrito dentro desta tag!
+
+---
 
 #### 📍 O que é o "Caminho" de um arquivo?
 
@@ -89,3 +124,7 @@ Este é o que exige mais atenção! Quando você está dentro de uma pasta e que
 - Documentação:
     - [Elemento Anchor - Tag `a`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/a)
     - [Caminhos: entenda as diferenças entre absoluto e relativo](https://www.alura.com.br/artigos/caminhos-entenda-diferencas-entre-absolutos-relativos?srsltid=AfmBOopJdt4fjo--O_xYbkBND7TF5zzfJHET10vYkMIHs2nv-j0g5ojK)
+
+### 🕹️ Exercícios
+
+- [Clique aqui para ir até o enunciado.](../../exercicios/uc-03-frontend-essencial/aula-04/readme.md)
