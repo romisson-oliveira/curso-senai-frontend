@@ -33,10 +33,10 @@ Em resumo é uma linguagem com regras de escrita para indicar ao navegador o que
 Computadores não "leem" como humanos. Eles precisam de etiquetas (TAGS) para saber o que é o quê.
 
 - Exemplo: Um parágrafo precisa da etiqueta `<p>` no início e `</p>` no fim.<br>
-      <p align='center'>
-      <img src="./img/elementoHtml.png" width='400'>
-      </p>
-      <br>
+  <p align='center'>
+  <img src="../../recursos/img/elementoHtml.png" width='400'>
+  </p>
+  <br>
 
 📌 **Revisão de HTML**
 
