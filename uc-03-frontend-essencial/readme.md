@@ -27,7 +27,7 @@ Durante esta UC, vamos construir projetos reais que se conectam e evoluem com o 
 Para esta UC, vamos seguir a orientação de criação de pastas descrita na [documentação inicial (para ver, clique aqui!)](../../readme.md#️-organização-do-seu-aprendizado).
 Confira abaixo para visualizar um exemplo de como deve ser criado:
 
-<img src='../../recursos/img/arvore-diretorio.png' width='700' alt='Representação da árvore de diretórios da unidade curricula front end essencial'>
+<img src='../recursos/img/arvore-diretorio.png' width='700' alt='Representação da árvore de diretórios da unidade curricula front end essencial'>
 
 
 ---
