@@ -72,7 +72,8 @@ Principais características:
 - **Aplicação:** Usado diretamente no elemento:
     - `<h1 style="color: blue;">Texto</h1>`.
 - **Prioridade:** Tem prioridade máxima sobre CSS externo ou interno.
-- **Uso:** Evitar em grandes projetos para não "poluir" o HTML.Escopo: Aplica-se apenas ao elemento específico onde está definido
+- **Uso:** Evitar em grandes projetos para não "poluir" o HTML.
+- **Escopo:** Aplica-se apenas ao elemento específico onde está definido.
 
 ---
 
