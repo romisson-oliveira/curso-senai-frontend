@@ -1,0 +1,28 @@
+body{
+    background-color: burlywood;
+}
+.tt2{
+    color:aqua;
+}
+
+.tt1{
+    color: blueviolet;
+}
+
+.li{
+    background-color:black;
+    height: 3px;
+    border: none;
+    
+
+}
+a{
+    text-decoration: none;
+   
+}
+
+
+img{
+    width: 600px;
+    height: auto;
+}

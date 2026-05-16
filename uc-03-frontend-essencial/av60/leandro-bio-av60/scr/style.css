@@ -1,0 +1,68 @@
+.t1{
+    text-align: center;
+    color:rgb(91, 202, 26);
+     font-size: 30px;
+}
+.t2{
+    text-align: center;
+    color: rgba(43, 226, 156, 0.774);
+     font-size: 30px;
+}
+.t3{
+     text-align: center;
+    color:aqua;
+    font-size: 30px;
+}
+
+.lis{
+   
+    text-align: center;
+     color:aliceblue;
+      font-size: 20px;
+      padding-left: 20px;
+  list-style-position: inside;
+  text-decoration: none;
+     
+
+}
+.list{
+       text-align: center;
+     color:aliceblue;
+      font-size: 20px;
+      padding-left: 20px;
+  list-style-position: inside;
+    text-decoration: none;
+}
+.p4{
+     text-align:right ;
+     margin-top: 2%;
+       font-size: 20px;
+
+}
+
+
+.lin{
+     
+    font-size: 20px;
+     color:aliceblue;
+      
+}
+.bloco{
+
+ 
+
+ position: absolute;
+  top: 0;
+  left: 0;
+  padding: 15px; 
+  
+
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: brown;
+}
+

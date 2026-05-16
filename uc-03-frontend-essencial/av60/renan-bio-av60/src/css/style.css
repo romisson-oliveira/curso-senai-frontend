@@ -1,0 +1,140 @@
+/* ===================================
+   IMPORTANDO FONTE
+=================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===================================
+   RESET
+=================================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===================================
+   BODY
+=================================== */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #0f172a, #1e293b, #334155);
+    min-height: 100vh;
+    padding: 50px 25px;
+    color: white;
+}
+
+/* ===================================
+   MENU PRINCIPAL
+=================================== */
+ul{
+    list-style: none;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* ===================================
+   ITENS
+=================================== */
+li{
+    width: 100%;
+}
+
+/* ===================================
+   LINKS
+=================================== */
+a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+
+    /* LETRAS MAIORES */
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+
+    padding: 35px;
+    border-radius: 20px;
+
+    transition: 0.4s ease;
+    position: relative;
+    overflow: hidden;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+
+    /* MELHORA LEITURA */
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
+/* ===================================
+   EFEITO HOVER
+=================================== */
+a:hover{
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+/* ===================================
+   EFEITO BRILHO
+=================================== */
+a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.18);
+    transform: skewX(-25deg);
+    transition: 0.8s;
+}
+
+a:hover::before{
+    left: 120%;
+}
+
+/* ===================================
+   CORES DOS BOTÕES
+=================================== */
+
+/* Página Inicial */
+li:nth-child(1) a{
+    background: linear-gradient(45deg, #2563eb, #60a5fa);
+}
+
+/* Meu Artigo */
+li:nth-child(2) a{
+    background: linear-gradient(45deg, #9333ea, #c084fc);
+}
+
+/* Notícias */
+li:nth-child(3) a{
+    background: linear-gradient(45deg, #dc2626, #f87171);
+}
+
+/* Receitas */
+li:nth-child(4) a{
+    background: linear-gradient(45deg, #16a34a, #4ade80);
+}
+
+/* ===================================
+   RESPONSIVIDADE
+=================================== */
+@media(max-width: 768px){
+
+    body{
+        padding: 30px 15px;
+    }
+
+    a{
+        font-size: 1.4rem;
+        padding: 25px;
+    }
+
+    ul{
+        gap: 20px;
+    }
+}
