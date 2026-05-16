@@ -23,13 +23,6 @@ Lembre-se: **Errar faz parte do processo de quem tenta mais!**
 - **Comentários:** Usamos para deixar notas no código que o navegador ignora. Cada linguagem tem seu formato. No HTML:
     - `<!-- comentário -->`.
 
-### 🛠️ VS Code como Aliado
-
-- **Tradução:** `Ctrl + Shift + P` -> "Configure Display Language" -> "Português (Brasil)".
-- **Word Wrap (Alt + Z):** Faz o código "quebrar a linha" para não precisar de barra de rolagem lateral.
-- **Sugestões (Ctrl + Espaço):** Abre a lista de atributos e valores possíveis (o famoso Emmet).
-- **Formatação:** Botão direito no código -> "Format Document" (ajuda na identação).
-
 ### 🚀 Mentalidade Dev
 
 - **Versão 0.0.1 (MVP):** Em uma entrega oficial, foque em entregar **primeiro o que foi pedido**. Garanta o básico funcionando.
