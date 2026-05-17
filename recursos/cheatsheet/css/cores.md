@@ -560,3 +560,30 @@ Monte um card com:
 .card {
 }
 ```
+
+---
+
+##  🔗 Links Importantes
+
+### Sites Para Pegar e Gerar Cores:
+
+- [HSL Picker](https://www.hslpicker.com/)
+- [Text Shadow CSS Generator](https://html-css-js.com/css/generator/text-shadow/)
+- [Box Shadow CSS Generator](https://html-css-js.com/css/generator/box-shadow/)
+- [RBG Color Picker](https://rgbcolorpicker.com/)
+- [RGBA Color Picker](https://rgbacolorpicker.com/)
+- [Extensão CollorZilla - Para pegar cor no navegador](https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=pt-BR)
+
+### Ferramentas para utilizar em conjunto com a tabela de Cores HTML e CSS
+
+_Explorar paletas de cores pode facilitar bastante o processo de criação visual. Confira abaixo algumas ferramentas úteis:_
+
+- [**Material UI Colors:**](https://materialui.co/colors)
+   - Esse site reúne cores amplamente utilizadas no padrão Material Design. As combinações costumam ser modernas, elegantes e bastante presentes em interfaces atuais. Um detalhe útil é que, ao clicar sobre uma cor, o código hexadecimal é copiado automaticamente, permitindo colar diretamente no HTML ou CSS sem perder tempo.   
+- [**Color Hunt:**](https://colorhunt.co/)
+   - Plataforma com diversas coleções de paletas criadas por designers e usuários da comunidade. É uma boa opção para encontrar combinações prontas e escolher estilos que combinem com o visual do seu projeto.
+- [**Adobe Color:**](https://color.adobe.com/br/create/color-wheel)
+   - Ferramenta oficial da Adobe voltada para criação e harmonização de cores. Ao selecionar uma tonalidade, o sistema sugere automaticamente cores compatíveis, ajudando na construção de paletas equilibradas e profissionais.
+
+_Depois de definir suas cores utilizando as ferramentas acima, você pode recorrer à tabela de cores HTML para consultar e copiar valores em hexadecimal, nomes de cores ou códigos RGB diretamente para o seu projeto._
+ 
