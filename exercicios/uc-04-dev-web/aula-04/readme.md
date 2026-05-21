@@ -1,6 +1,6 @@
 ## UC04: Desenvolvimento Web
 
-## 💪 Lista de Exercícios de Fixação
+### 💪 Lista de Exercícios de Fixação
 
 - **Instruções:** Monte a estrutura HTML contendo contêineres (`<div>`) e textos (`<h1>`, `<h2>`, `<p>`) no arquivo `cores.html`. Toda a pintura e lógica visual deve ser codificada dentro do arquivo `style.css`.
 
