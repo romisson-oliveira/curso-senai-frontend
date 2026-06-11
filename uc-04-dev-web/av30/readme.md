@@ -1,15 +1,15 @@
-Segue formatado em um único bloco Markdown limpo:
-
 # 📝 AVALIAÇÃO DE DESENVOLVIMENTO WEB: FUNDAMENTOS DO CSS
+
+**Firjan Senai Benfica - QUA03002026Ú092**
 
 **Valor Total:** 30 Pontos
 
-**Aluno(a):** ______________________________________________________
-**Data:** ****/****/______
+## Gabarito da avaliação
+
 
 ---
 
-# 🛑 PARTE 1: CONCEITOS E FUNDAMENTOS
+## 🛑 PARTE 1: CONCEITOS E FUNDAMENTOS
 
 ### *(12 Questões — Valor Total do Bloco: 8,5 pontos)*
 
