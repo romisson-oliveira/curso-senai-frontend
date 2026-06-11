@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avaliação Prática - Web</title>
+
+</head>
+<body>
+
+  <header class="topo-site">
+    <div class="interface header-flex">
+      <div class="logo">PRO-SITE</div>
+      
+      <nav class="menu">
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+
+    <!-- Subnav de boas-vindas do JavaScript -->
+    <div id="subnav"></div>
+  </header>
+
+  <main>
+    <!-- SEÇÃO 1: INÍCIO (HERO) -->
+    <section id="inicio">
+      <div class="interface hero-conteudo">         
+      </div>
+    </section>
+
+    <!-- SEÇÃO 2: SERVIÇOS -->
+    <section id="servicos">
+      <div class="interface">
+        <h2>Nossos serviços</h2>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 3: CONTATO -->
+    <section id="contato">
+      <div class="interface contato-conteudo">
+        <h2>Fale Conosco</h2>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
