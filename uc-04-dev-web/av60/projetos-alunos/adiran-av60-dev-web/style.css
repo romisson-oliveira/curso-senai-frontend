@@ -1,0 +1,79 @@
+/* N.I = NOTA DO INSTRUTOR - Comentário para trechos de códigos. */
+*{
+    box-sizing:border-box;
+    /* ❌ N.I - A questão 2.1 pediu para zerar (limpar) as margens externas e preenchimento interno.
+        Aqui faltam as declarações: 
+            margin: 0;
+            padding: 0;
+    */
+}
+
+body{
+    background-color: rgb(30, 154, 113);
+    color: black;
+    min-height: 100vh;
+}
+
+.interface{
+    width: 1280px;
+    margin: auto;
+}
+
+.topo-site{
+    height: 80px;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+        /* 
+        ⚠️ N.I - Atenção! Aqui reside um perigo!
+        Você usou a declaração align-items: center para alinhar os filhos deste elemento no eixo vertical no centro.
+        Pelo visto ele não aplicou. Por quê? Porque este elemento não tem tamanho definido.
+        Portanto, o correto era inserir um height nele. Mas qual? 80px do container que ele tá dentro? Mas e se este "pai" crescer ou diminuir?
+        Então vai a dica: o filho não precisa saber o tamanho (altura ou largura) de seu pai, mas ele pode ter o tamanho dele passando a porcentagem como valor.
+
+        Comente o código de padding abaixo ↓ e insira no lugar:
+            height: 100%;
+        Você utilizou um recurso técnico, mas que o correto é usar o display flex para isto.
+    */
+    padding: 20px; 
+
+}
+
+#inicio{
+    background-image: url(imagens/hero.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: calc(100vh - 80px);
+}
+
+.hero-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;   /* ✅ N.I - Aqui você usou corretamente a altura do pai. Poderia ter feito o mesmo na regra css do seletor .header-flex acima */
+  
+}
+.container-cards{
+    display: flex;
+    gap: 24px;
+}
+.container-cards img{
+    width: 100%;
+    height: 200px;
+}
+
+h2{
+    border: 10px solid ;
+    text-align: center;
+}
+
+.e-mail{
+    border:2px solid ;
+    text-align: center;
+    display: block;
+}

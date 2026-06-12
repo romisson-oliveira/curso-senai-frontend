@@ -1,0 +1,80 @@
+/* N.I = NOTAS DO INSTRUTOR: Comentário em trechos de códigos. */
+*{   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{color: white;
+    background-color:gray;
+    min-height: 100vh;
+}
+.interface{width: 1280px;
+    margin:0 auto;
+}
+.topo-site{
+    height: 80px;
+     background-image: url("imagens/hero.jpg"); /* ⚠️ N.I - Questão 3.1: enunciado não pede imagem de fundo, não perde pontos. Porém, sempre siga a documentação. Ela define o que seu cliente deseja do seu trabalho. */
+}
+.header-flex{
+    border: 2px;
+    display: flex;
+    justify-content: space-between; 
+    height: 100%;
+    align-items: center;
+}
+
+.hero-conteudo{border: 2px  ;
+display: flex;
+flex-direction: column;
+}
+
+/* 👀 N.I - que classe é esta? Não existe no seu documento. */
+.container {
+    display: flex;
+    margin: 24px;
+     box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.3);
+}
+#inicio {
+    background-image: url("imagens/card3.jpg");
+    height: calc(100vh - 80px);
+   
+}
+
+/* 
+    ⚠️ Atenção! Existe um princípio em programação que chama-se DRY (Don't Repeat Yourself) - Não repita a si mesmo!
+
+    Você já havia declarado esta regra neste exato mesmo seletor na linha 25.
+    E não tem problema em fazer isto desde que as regras inseridas dentro do bloco não se repita, reescrevendo-os. 
+        Ex: na regra CSS da linha 25, você definiu: 
+            display: flex;
+            flex-direction: column;
+        E abaixo, você repete as mesmas declarações.
+
+    Sempre que possível, siga as boas práticas!
+*/
+.hero-conteudo {
+  display: flex;
+  height: 100%;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+  
+}
+.conteiner-cards { 
+    display: flex;
+    justify-content: center;    /* ⚠️ N.I - Questão 3.4 não pediu para alinhar no centro da horizontal. Apenas lado a lado, com espaçamento de 24px. Você executou com duas declarações que estão neste bloco (display: flex; gap: 24px;). */
+    gap: 24px;
+}
+
+.img-card { height: 200px;
+    width:100%;
+     box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.3);
+    /* ⚠️ N.I - As propriedades abaixos servem para aplicar nos elementos de containers para organizar os elementos que estão dentro deles.
+    Este seletor (.img-card) pega uma imagem, portanto, não é possível inserir elementos dentro dele. Então aplicar display: flex; nele é irrelevante. 
+
+    Existem propriedades que são aplicados em elementos "pai" e outros em elementos "filhos". 
+
+    Portanto, as declarações abaixo estão incorretas.
+    */
+     align-items: center;
+    display: flex;
+}

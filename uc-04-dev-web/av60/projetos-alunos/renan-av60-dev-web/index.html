@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação Prática - Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="topo-site">
+        <div class="interface header-flex">
+            <div class="logo"><img src="imagens/hero2.jpg"></div>
+
+            <nav class="menu">
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">contato</a>
+            </nav>
+        </div>
+
+        <!-- Subnav de boas-vindas do JavaScript -->
+        <div id="subnav"></div>
+    </header>
+
+    <main>
+        <!-- SEÇÃO 1: INÍCIO (HERO) -->
+        <section id="inicio">
+            <div class="interface hero-conteudo">
+                <h1>O clima perfeito para o seu ambiente</h1>
+                <p>"instalação, manutenção e limpeza de ar-condicionado residencial e comercial com garantia técnica.
+                </p>
+                <button>Saiba mais</button>
+
+            </div>
+        </section>
+
+        <!-- SEÇÃO 2: SERVIÇOS -->
+        <section id="servicos">
+            <div class="interface">
+                <h2>Soluções em Climatição:</h2>
+                <p>instalação Express | manutenção Corretiva | limpeza Química. </p>
+                <button>Saiba mais</button>
+
+                <!-- 
+                    Comentário do Instrutor: O nome da classe abaixo é "container-cards", segundo a documentação.
+                     
+                -->
+                <div class="container">
+
+                    <!-- 
+                        Comentário do Instrutor: cada card (div abaixo) deveria ter DENTRO a imagem do card atual e o h3 com o texto do card.
+                    -->
+                    <h3>instalação Express:</h3>
+                    <div> <img class="img-card" src="imagens/card1.jpg"></div>
+
+                    <h3>manutenção Corretiva:</h3>
+                   <div> <img class="img-card" src="imagens/card2.jpg"></div>
+
+                    <h3> Limpeza Química:</h3>
+                    <div> <img class="img-card" src="imagens/card3.jpg"></div>
+
+                </div>
+        </section>
+
+        <!-- SEÇÃO 3: CONTATO -->
+        <section id="contato">
+            <div class="interface contato-conteudo">
+                <h2>Fale Conosco</h2>
+                <!-- 
+                    Comentário do Instrutor: Quando usuário clicar no link de contato, deveria abrir uma caixa de e-mail para ele.
+                    Código correto: 
+                        <a href="mailto:suporte@clima.com">Entre com contato conosco</a>
+                    Faltou este href desta forma.
+                -->
+                <a href="#contato">suporte@clima.com</a>
+                <button>Saiba Mais</button>
+
+            </div>
+        </section>
+    </main>
+    <!-- 
+        N.I - Está correto a importação, mas o ideal é que <script> seja o último elemento antes do fechamento de </body>
+      -->
+<script src="script.js"></script>
+<footer>Renan Cabral</footer>
+
+<!-- 
+    Aqui é o local ideal para inserir o elemento <script>
+        ✅ Ou dentro de <head>, porém a importação ficará assim:
+            <head>
+                <script src="script.js" defer></script>
+            </head>
+        Em outras palavras, você pode importar seu js de duas formas. Mas na que estamos vendo acima, precisa inserir o atributo "defer", quando importado DENTRO DO HEAD.
+        👀 Se for importar aqui, basta escrever da forma que você fez na linha 84. 
+        Só que o ideal é que seja neste local.
+-->
+</body>
+
+</html>

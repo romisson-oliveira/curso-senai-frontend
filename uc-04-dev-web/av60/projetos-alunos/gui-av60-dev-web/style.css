@@ -1,0 +1,61 @@
+/* N.I - NOTA DO INSTRUTOR - Comentário em trechos de códigos. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: khaki;
+    min-height: 100vh;
+    /* ❌ N.I - Aqui faltou a declaração de color. Questão 2.2 */
+}
+
+.interface{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inicio{
+    background-image: url(img/hero.jpg);
+    height: calc(100vh - 80px);
+}
+
+.topo-site{
+    height: 80px;
+    border: 2px solid black;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.hero-conteudo{
+    /* ⚠️ N.I - As declarações de background-size e position deveriam está no regra do seletor de #inicio */
+    background-size: cover;
+    background-position: center;
+    margin: auto;   /* 👀 N.I - Não precisa aplicar esta margin, pois o pai (.interface) já faz isto. */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+
+.container-cards{
+  gap: 24px;
+  display: flex;
+}
+
+.container-cards img{
+    width: 100%;
+    height: 200px;
+}
+
+
+
+

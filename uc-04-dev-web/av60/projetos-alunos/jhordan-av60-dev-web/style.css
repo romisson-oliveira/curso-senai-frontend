@@ -1,0 +1,72 @@
+/* N.I = NOTA DO INSTRUTOR: Comentário em trechos de códigos. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: navy;
+    color: deepskyblue;
+    min-height: 100vh;
+}
+
+
+
+
+.interface{
+    width: 1280px;
+    margin: auto;
+}
+
+.topo-site{
+    height:80px ;
+    
+    
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    color:rgb(0, 119, 255)
+    /* 
+        ❌ N.I - Questão 3.3. 
+    Faltou alinhar os elemento de .header-flex verticalmente ao centro. Para fazer isto, já que foi aplicado o display:flex; o eixo principal será a linha. E o justify-content vai ajudar os elementos dentro deste container com espaçamento entre eles, na horizontal (linha).
+
+    Assim, o eixo auxiliar, coluna/vertical, será ajustada com a propriedade 'align-items', com valor de 'center':
+        align-items: center;
+
+    👀 Mas para funcionar, este container precisa de um tamanho definido. Ele está dentro de um elemento com a classe .topo-site e este elemento possui uma altura (vide linha 23) de 80px; Assim podemos dizer que este elemento (.header-flex) possuirá 100% da altura do pai dele:
+        height: 100%;
+    
+    💡 Dica: a declaração da linha 31 faltou inserir o ponto e vírgula. Sendo a última declaração não precisa inserir, por isso não retornou um erro. Mas as boas práticas dizem que o ideal é sempre terminar uma declaração com ponto e vírgula, mesmo sendo o último: 
+        color: rgb(0, 119, 255);
+    */
+}
+
+
+#inicio{
+    background-image: url(imagens/hero.jpg);
+    height: calc(100vh - 80px);
+}
+
+.hero-conteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;   /* N.I - Repare que aqui você utilizou a estratégia de passar a altura de 100% no filho para pegar a altura do pai. Era só seguir esta mesma estratégia na questão 3.1. */
+    justify-content:center;
+}
+
+.container-cards{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between; /* ⚠️ Cuidado! A documentação não pediu este alinhamento na horizontal. Esta declaração inválida a anterior de adicionar um espaçamento entre os elementos. */
+}
+
+.container-cards img{
+    width: 100%;
+    height: 200px;
+
+}
+

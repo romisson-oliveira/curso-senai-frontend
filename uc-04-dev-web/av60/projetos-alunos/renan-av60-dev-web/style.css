@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ font-family: "Nunito", sans-serif;
+}
+
+img {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+body {
+   background-color: rgb(2, 51, 100);
+   background-position: 100%;
+   /* *******************************
+    ----- Comentário do Instrutor ---
+    Aqui faltou a propriedade que define altura mínima de 100vh:
+    min-height: 100vh;
+
+    E faltou também a propriedade para cores de texto de forma global (qualquer cor):
+    color: #272727;
+
+    *********************************
+   */
+  
+}
+
+.interface {
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+.top-site {
+    height: 80px;
+    /* Comentário do Instrutor: não é aqui que deveria inserir o background-imagem, mas não perde pontos. */
+    background-image: url("imagens/hero.jpg");  
+
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.container {
+    display: flex;
+    margin: 24px;
+     box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+#inicio {
+    /* 
+        *** Comentário do Instrutor ***
+        Na documentação (questão 3.2), pede para inserir a imagem hero.jpg como background-image.
+    */
+    background-image: url("imagens/card3.jpg");
+    height: calc(100vh - 80px);
+   
+}
+
+.hero-conteudo {
+  display: flex;
+  height: 100%;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+  
+
+}
+
+.container { 
+    display: flexbox;   /* N.I - Para aplicar flexbox, usa-se a declaração: display: flex; */
+    justify-content: center;
+    padding: 24px;  /* N.I - Questão 3.4: O correto é gap: 24px; */
+  
+}
+
+.img-card { height: 200px;
+    width: auto;    /* N.I - Questão 3.5: pede width: 100%, não auto. */
+     box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.3);
+     /* N.I - Questão 3.5: display: flex e align-items são propriedades para aplicar no container para posicionar os elementos filhos (que estão dentro).
+     Não se aplica no elemento. Existem props que se aplicam no filho.
+     */
+     align-items: center;
+    display: flex;
+
+}
+
+p{
+    font-size: 45px;
+   color: rgb(35, 8, 239);    
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.3);
+    text-align: center;
+
+}
+
+h1,
+h2{
+    color: blue;
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+}
+
+button{
+    font-size: 20px;
+}
+

@@ -1,0 +1,88 @@
+<!--Jhordan dos Santos Silva, VIAGENS-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagens</title>
+    <link rel="stylesheet" href="style.css ">
+</head>
+
+<body>
+    <header class="topo-site">
+        <div class="interface header-flex">
+            <div class="logo">PRO-SITE</div>
+
+            <nav class="menu">
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+
+        <!-- Subnav de boas-vindas do JavaScript -->
+        <div id="subnav"></div>
+    </header>
+
+    <main>
+        <!-- SEÇÃO 1: INÍCIO (HERO) -->
+        <section id="inicio">
+            <div class="interface hero-conteudo">
+                <h1>Colecione momentos, explore o mundo</h1>
+                <p>
+                    Pacotes de viagens exclusivos com passagens e roteiros criados para sua aventura.
+                </p>
+                <button>Saiba Mais</button>
+
+            </div>
+        </section>
+
+        <!-- SEÇÃO 2: SERVIÇOS -->
+        <section id="servicos">
+            <div class="interface">
+                <h2>Destinos Mais Procurados</h2>
+                <div class="container-cards">
+                    <div>
+                        <img src="imagens/card1.jpg" alt=""> 
+                        <h3>Praias do Nordeste</h3>
+                    </div>
+                    <div>
+                        <img src="imagens/card2.jpg" alt="">
+                        <h3> Ecoturismo na Serra</h3>
+                    </div>
+
+                    <div>
+                        <img src="imagens/card3.jpg" alt="">
+                        <h3> Eurotrip Inesquecível</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 3: CONTATO -->
+        <section id="contato">
+            <div class="interface contato-conteudo">
+                <h2>Fale Conosco</h2>
+                <!-- 
+                    ⚠️ N.I - Criou a tag <a> com href correto, porém este elemento não possui conteúdo. Assim, como o usuário vai conseguir acessar o email do href?
+                    
+                    O correto seria:
+                        <a href="mailto:viagem@expor.com">
+                            <button>Saiba Mais</button>
+                        </a>
+                    Assim, ao clicar no botão, ele enviará um email para o href. 
+                        👀 mailto → mail = e-mail; to = para. E-mail para: viagem@explor.com
+                -->
+                 <a href="mailto:viagem@explor.com"></a>
+                 <button>Saiba Mais</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+/* N.I = NOTAS DO INSTRUTOR: Comentários em trechos de códigos. */
+
+*{
+    font-family: "Merriweather", serif;
+    margin: 0px;    /* 💡 N.I - Está correto! Dica: 0 = 0px. Normalmente só digitamos 0 mesmo. Mas 0px está correto também. */
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background-color: black;
+    color: gold;
+    min-height: 100vh   ;
+
+}
+
+.interface{
+
+max-width: 1280px;
+margin: auto;
+
+}
+
+.topo-site{
+
+height: 80px;
+
+}
+
+.header-flex{
+
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+#inicio{
+
+    background-image: url(./imagens/hero.jpg);
+    height: calc(100vh - 80px);
+    
+
+}
+
+.hero-conteudo{
+    display: flex;
+   height: 100%;
+   justify-content:center ;
+   align-items: center;
+   flex-direction: column;
+   gap: 40px;
+}
+
+.container-cards {
+
+    display:flex  ;
+    justify-content: baseline ;
+    justify-content: center;
+    gap: 24px;
+
+    /* ❌ N.I - As seguintes declarações abaixo... */
+    width: 100%;
+    height: 200px;
+    /* 
+        ... ↑ Questão 3.5 - Eram para ser aplicadas nas imagens DENTRO do elemento que tem .container-cards. 
+        Lembro que você ficou de inserir a largura de 400px com atributo 'width' direto na tag img, ok!
+        Era só ter selecionado o elemento img e aplicado a regra, conforme documentação. E deixar a regra comentada.  
+    */
+
+    margin-top: 125px;
+    
+}
+
+/* ✍️ N.I - Questão 3.5, confira o correto: 
+
+    .container-cards img {
+        width: 100px;
+        height: 200px;
+    }
+
+    Era só deixar esta regra CSS comentada. Conforme orientado, eu preciso dela para avalizar de acordo com o enunciado em questão.
+
+    Estamos pegando as img que estão dentro de um elemento que contém a classe container-cards.
+
+*/
+
+
+.interface h2{
+    background-color:darkgoldenrod ;
+margin-top: 50px;
+    text-align: center;
+}
+
+.contato-conteudo h2{
+
+margin-top: 100px;
+
+}
+
+.hero-conteudo button{
+
+    border: none;
+    padding: 10px 20px;
+    background-color: gold;
+    cursor: pointer;
+
+}
+
+.hero-conteudo button:hover{
+
+    border: none;
+    padding: 10px 20px;
+    background-color: gray;
+ transition-duration:2s ;
+}
+
+.mail{
+    
+    text-align: center;
+    margin-top: 50px;   
+    background-color: darkgoldenrod;
+
+}
+    
+.mail a:link{
+
+ color: black;
+    
+}
+

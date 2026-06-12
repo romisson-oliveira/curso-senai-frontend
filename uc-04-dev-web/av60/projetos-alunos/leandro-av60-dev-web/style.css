@@ -1,0 +1,90 @@
+/* nome:Leandro de Lima Almeida Bezerra
+     tema:3  */
+
+* {
+   margin: 0%; /* 💡 Dica: Mesmo que não esteja incorreto aplicar porcentagem no número zero, normalmente escrevemos valores de zero com apenas 0, mesmo que possamos usar também 0px e 0%. É só uma padronização, sugestão. Não uma regra. */
+   padding: 0%;
+   box-sizing: border-box;
+
+}
+
+.interface {
+   width: 1280px;
+   margin: 0% auto;
+}
+
+.topo-site {
+   height: 80px;
+}
+
+.header-flex {
+   display: flex;
+   justify-content: space-between;
+   height: 100%;
+   align-items: center;
+
+}
+
+#inicio {
+   background-image: url(./imagens/hero.jpg);
+
+   height: calc(100vh - 80px);
+
+
+}
+
+.hero-conteudo {
+   display: flex;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+
+}
+
+.container-cards {
+   display: flex;
+   /* ❌ N.I - O valor baseline não pertence à propriedade justify-content e o enunciado não pediu justificar o conteúdo dos elementos filhos, apenas para inserir lado a lado, a prop acima já faz isto e um espaçamento de 24px automática entre os elementos, o gap já cumpre o papel. 
+   ⚠️ Sempre que for usar um valor novo em uma prop conhecida, pesquise para saber se é aceita.
+
+   Este valor "baseline" é permitido em align-items, pois vai definir, no eixo auxiliar (também chamado de eixo transversal) para alinhar os elementos a partir da base da linha do texto.
+   */
+   justify-content: baseline; 
+   gap: 24px;
+}
+
+/* criado por mim para mudar o tamanho da img */
+.imgcard {
+   width: 100%;
+   /*  botei 400 por acha mais bonito height: 200px;*/
+   height: 400px;
+   /* 
+   ✍️ N.I - Questão 3.5: alterou o valor da documentação, mas comentou. Assim, informando qual valor esperado e isto é uma boa prática.
+
+   Você testou algo novo para mostrar ao seu cliente, porém documentou o valor inicial para caso retornar caso cliente te der um retorno de "não gostei!". Assim, você poderá voltar ao valor inicial. 
+
+   Você pegou a essência dos comentários!   
+   */
+
+}
+
+
+body {
+
+   background-color: black;
+   color: blueviolet;
+   height: 100vh;
+
+}
+
+/* extra */
+a {
+   color: blueviolet;
+   text-decoration: none;
+}
+
+button {
+   background-color: aqua;
+   color: blueviolet;
+}

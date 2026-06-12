@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação Prática - Web</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="topo-site">
+        <div class="interface header-flex">
+            <div class="logo">PRO-SITE</div>
+
+            <nav class="menu">
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+
+        <!-- Subnav de boas-vindas do JavaScript -->
+        <div id="subnav"></div>
+    </header>
+
+    <main>
+        <!-- SEÇÃO 1: INÍCIO (HERO) -->
+        <section id="inicio">
+            <div class="interface hero-conteudo">
+                <h1>Cuidado premium que seu veiculo merece</h1>
+                <p>estética automotiva especializada com produtos de alta performance e profissionais detalhistas</p>
+                <button>Saiba mais</button>
+            </div>
+
+        </section>
+
+        <!-- SEÇÃO 2: SERVIÇOS -->
+        <section id="servicos">
+            <div class="interface">
+                <h2>Nossos serviços</h2>
+                <div class="conteiner-cards">
+
+                    <div>
+                        <h3>polimento comercial</h3>
+                        <img src="./imagens/card1.jpg" alt="polimento comercial" class="img-card">
+                    </div>
+                    <hr>
+                    <div>
+                        <h3>lavagem detalhada</h3>
+                        <img src="./imagens/card2.jpg" alt="lavagem detalhada" class="img-card">
+                    </div>
+                    <hr>
+                    <div>
+                        <h3>higienizacão interna</h3>
+                        <img src="./imagens/card3.jpg" alt="higienizacão interna" class="img-card">
+                    </div>    
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SEÇÃO 3: CONTATO -->
+        <section id="contato">
+            <div class="interface contato-conteudo">
+                <h2>Fale Conosco</h2>
+                <!-- 
+                    Comentário do Instrutor: Quando usuário clicar no link de contato, deveria abrir uma caixa de e-mail para ele.
+                    Código correto: 
+                        <a href="mailto:suporte@clima.com">Entre com contato conosco</a>
+                    Faltou o valor de href desta forma acima.
+
+                    E se você for inserir um valor dentro do href para uma página, passe a extensão do arquivo depois de passar o caminho:
+                    1. Um arquivo do seu documento:
+                    <a href="contato.html">Texto do link</a>
+
+                    Nunca passe uma página para usuário navegar sem extensão dela.
+
+                    2. Caminho de um site na internet, url completa:
+                    <a href="https://www.google.com">Vá para Google</a>
+                    Neste caso acima, não precisa passar extensão (.html), pois o enedereço do site já é o suficiente.
+                -->
+                <a href="contato">contato@lavajato.com</a>
+            </div>
+        </section>
+    </main>
+<script src="script.js" ></script>
+</body>
+
+</html>

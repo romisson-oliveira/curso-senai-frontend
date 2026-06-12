@@ -1,0 +1,128 @@
+/* N.I - Significa NOTA DO INSTRUTOR. Serve para comentar alguns trechos de códigos. */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: inherit; /* N.I - Aqui aplicou corretamente, porém a doc pede para aplicar esta declaração no body. */
+
+}
+
+body{
+
+    background-color:blanchedalmond;
+    min-height: 100vh;
+}
+
+.interface{
+    min-width: 1280px;
+    margin: 0 auto;
+
+
+}
+
+.topo-site{
+    height: 80px;
+    
+
+}
+
+.header-flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* 
+        ⚠️ N.I - Atenção! Aqui reside um perigo!
+        Você usou a declaração align-items: center para alinhar os filhos deste elemento no eixo vertical no centro.
+        Pelo visto ele não aplicou. Por quê? Porque este elemento não tem tamanho definido.
+        Portanto, o correto era inserir um height nele. Mas qual? 80px do container que ele tá dentro? Mas e se este "pai" crescer ou diminuir?
+        Então vai a dica: o filho não precisa saber o tamanho (altura ou largura) de seu pai, mas ele pode ter o tamanho dele passando a porcentagem como valor.
+
+        Comente o código de padding abaixo  ↓ e insira no lugar:
+            height: 100%;
+        Você utilizou um recurso técnico, mas que o correto é usar o display flex para isto.
+    */
+
+    padding: 30px 30px;     
+}
+
+#inicio{
+    background-image: url('imagens/hero.jpg');
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 80px);
+
+}
+
+.hero-conteudo{
+    display: flex;
+    align-items: center;
+    height: 100%;   /* N.I: Aqui você usou o height 100% corretamente, era só aplicar a mesma lógica na questão 3.1 */
+    flex-direction: column;
+    justify-content: center;
+    color:green;
+    
+
+}
+
+.container-cards img{
+    width: 100%;
+    height: 200px;
+    
+    
+   
+}
+
+
+
+.container-cards{
+    display:flex;
+    gap: 24px;
+    justify-content: space-between;
+    padding: 50px;
+    color:green;
+
+    
+    
+
+
+}
+
+h2{
+
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    color:#5a3938;
+
+}
+
+.contato-conteudo{
+
+    text-align: center;
+}
+
+.container-cards h3{
+
+    text-align: center;
+}
+
+.logo{
+
+    font-size: 30px;
+    font-weight: bold;
+    color:#5a3938;
+}
+
+.menu{
+
+    color:#5a3938;
+}
+
+a{
+    color:green
+
+}
+
+
+
