@@ -1,0 +1,105 @@
+<!-- 
+  ⚠️ NOTA DO INSTRUTOR: 
+  1. Atenção ao nome do projeto. Se você cria o nome de qualquer pasta diferente ao da documentação, você ou sua equipe não encontrará os arquivos/pastas que estão procurando a partir da documentação. 
+    - A documentação serve para padronizar seu projeto e seguir com uma linha de trabalho. Fica fácil a revisão ou navegação entre as partes do seu projeto. Este projeto é pequeno: tem apenas uma página. Mas a medida que um projeto cresce, se não tiver uma documentação e/ou estrutura ficará difícil escalar o projeto para continuar crescendo.
+
+  2. A documentação pediu para inserir as imagens em uma pasta chamada "imagens/" dentro da pasta raiz. Você criou de uma rota não especificada:
+anderson-av60-dev-web/
+|   index.html
+|   script.js
+|   style.css
+|   
+\---src
+    \---assets
+        \---img
+                card1.jpg
+                card2.jpg
+                card3.jpg
+                hero.jpg
+
+- Agora se fosse buscar, ou consumir a rota vinda de uma API, o backend da sua aplicação (se fosse feita por outra equipe) seguindo a mesma documentação que você, front-end, recebeu, não vai encontrar as imagens pelo caminho correto:
+ 
+\---imagens
+          card1.jpg
+          card2.jpg
+          card3.jpg
+          hero.jpg
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avaliação Prática - Web</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Estética Automotiva (Lava jato Premium)-->
+
+</head>
+<body>
+
+  <header class="topo-site">
+    <div class="interface header-flex">
+      <div class="logo">PRO-SITE</div>
+      
+      <nav class="menu">
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+
+    <!-- Subnav de boas-vindas do JavaScript -->
+    <div id="subnav"></div>
+  </header>
+
+  <main>
+    <!-- SEÇÃO 1: INÍCIO (HERO) -->
+    <section id="inicio">
+      <div class="interface hero-conteudo">
+        <h1>Cuidado premium que o seu veículo merece</h1>         
+         <p>
+            Estética automotiva especializada com produtos de alta performance e profissionais detalhisstas.
+         </p>
+         <!-- 
+          ❌ NOTA DO INSTUTOR
+          Aqui faltou o button com texto: Saiba Mais
+         -->
+      </div>
+    </section>
+
+    <!-- SEÇÃO 2: SERVIÇOS -->
+    <section id="servicos">
+      <div class="interface">
+        <h2>Nossos Serviços Especiais</h2>
+        <div class="container-cards">
+          <!-- ❌ N.I - Inverteu a ordem dos elementos dentro de cada card. -->
+            <div>
+                <h3>Lavagem De Veiculo</h3>
+            <img class="card-img" src="./src/assets/img/card1.jpg" alt="Lavagem de veículo">
+            </div>
+            <div>
+                <h3>Polimento De Veiculo</h3>
+            <img class="card-img" src="./src/assets/img/card2.jpg" alt="Polimento de veículo">
+            </div>
+            <div>
+                <h3>Interior Do Veiculo</h3>
+            <img class="card-img" src="./src/assets/img/card3.jpg" alt="Interior do veículo">
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 3: CONTATO -->
+    <section id="contato">
+      <div class="interface contato-conteudo">
+        <h2>Fale Conosco</h2>
+        <a href="mailto:contato@lavajato.com" class="btn-contato">Enviar Email</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
